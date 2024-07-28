@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish4Chocolate</title>
+    <link rel="icon" href="./Images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+WAL&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand logo-img" href="./index.html" target="_blank"><img src="./Images/logo.png" alt="Wish4Chocolate Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto ms-lg-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#products-section">Shop</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Product
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Made for you</a></li>
+                                <li><a class="dropdown-item" href="#">Ultimate Collection</a></li>
+                                <li><a class="dropdown-item" href="#">Premium Chocolates</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Dark Chocolate</a></li>
+                                <li><a class="dropdown-item" href="#">White Chocolate</a></li>
+                                <li><a class="dropdown-item" href="#">Combo Offers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="./registration.html" class="nav-link">Register</a></li>
+                    </ul>
+                    <div class="nav-left d-none d-lg-flex">
+                        <div class="nav-search">
+                            <input type="text" placeholder="Search..." list="data-lst">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <datalist id="data-lst">
+                                <option value="Milk Chocolate">
+                                <option value="Dark Chocolate">
+                                <option value="White Chocolate">
+                                <option value="Ruby Chocolate">
+                            </datalist>
+                        </div>
+                        <a href="./registration.html"><i class="fa-regular fa-user"></i></a>
+                        <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-content" id="hide-me">
+            <h2 class="display-5">&nbsp;&nbsp;You can deprive the body,<br>but the soul needs Chocolate.</h2>
+            <button class="hero-btn">Shop now <i class="fa-solid fa-arrow-right ms-1"></i></button>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slide-track c-images">
+            
+            <div class="slide">
+                <img src="./Images/c-img1.jpg" alt="Chocolate Image 1">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img2" alt="Chocolate Image 2">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img3.avif" alt="Chocolate Image 3">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img4.webp" alt="Chocolate Image 4">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img5.webp" alt="Chocolate Image 5">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img6" alt="Chocolate Image 6">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img7.jpg" alt="Chocolate Image 7">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img8.avif" alt="Chocolate Image 8">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img9.jpg" alt="Chocolate Image 9">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img10.jpg" alt="Chocolate Image 10">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img11.jpg" alt="Chocolate Image 11">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img12.jpeg" alt="Chocolate Image 12">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img13.jpg" alt="Chocolate Image 13">
+            </div>
+            
+            <div class="slide">
+                <img src="./Images/c-img1.jpg" alt="Chocolate Image 1">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img2" alt="Chocolate Image 2">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img3.avif" alt="Chocolate Image 3">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img4.webp" alt="Chocolate Image 4">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img5.webp" alt="Chocolate Image 5">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img6" alt="Chocolate Image 6">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img7.jpg" alt="Chocolate Image 7">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img8.avif" alt="Chocolate Image 8">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img9.jpg" alt="Chocolate Image 9">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img10.jpg" alt="Chocolate Image 10">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img11.jpg" alt="Chocolate Image 11">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img12.jpeg" alt="Chocolate Image 12">
+            </div>
+            <div class="slide">
+                <img src="./Images/c-img13.jpg" alt="Chocolate Image 13">
+            </div>
+        </div>
+    </div>
+    <div class="products" id="products-section">
+        <div class="slogan text-center">
+            <p>Weekly Based Categories</p>
+            <h2>TRENDING<br>CATEGORY PRODUCTS</h2>
+        </div>
+        <h2 class="products-heading">Made for you</h2>
+        <div class="products-list row justify-content-evenly">
+            <div class="col">
+                <div class="card m-4"  >
+                    <img src="./Images/prod-1.webp" class="card-img-top" alt="Fruit & Nut Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title h6 mb-1">Fruit & Nut Chocolate</h5>
+                        <p class="card-subtitle text-secondary">Cadbury</p>
+                        <div class="rating mt-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p class="weight text-secondary">400g</p>
+                        <div class="details d-flex">
+                            <h4 class="price">Rs. 375</h4>
+                            <button class="btn add-btn" onclick="addToCart('Fruit & Nut Chocolate', 375, './Images/prod-1.webp')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card m-4">
+                    <img src="./Images/prod-2.webp" class="card-img-top" alt="Fruit & Nut Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title h6 mb-1">Roasted Almond</h5>
+                        <p class="card-subtitle text-secondary">Nestle</p>
+                        <div class="rating mt-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="weight text-secondary">750g</p>
+                        <div class="details d-flex">
+                            <h4 class="price">Rs. 450</h4>
+                            <button class="btn add-btn" onclick="addToCart('Roasted Almond', 450, './Images/prod-2.webp')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card m-4">
+                    <img src="./Images/prod-3.webp" class="card-img-top" alt="Fruit & Nut Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title h6 mb-1">Butterscotch</h5>
+                        <p class="card-subtitle text-secondary">Parle</p>
+                        <div class="rating mt-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            
+                        </div>
+                        <p class="weight text-secondary">200g</p>
+                        <div class="details d-flex">
+                            <h4 class="price">Rs. 375</h4>
+                            <button class="btn add-btn" onclick="addToCart('Butterscotch', 375, './Images/prod-3.webp')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card m-4">
+                    <img src="./Images/prod-4.webp" class="card-img-top" alt="Fruit & Nut Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title h6 mb-1">Plain White</h5>
+                        <p class="card-subtitle text-secondary">Cadbury</p>
+                        <div class="rating mt-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="weight text-secondary">900g</p>
+                        <div class="details d-flex">
+                            <h4 class="price">Rs. 775</h4>
+                            <button class="btn add-btn" onclick="addToCart('Plain White', 775, './Images/prod-4.webp')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card m-4">
+                    <img src="./Images/prod-5.webp" class="card-img-top" alt="Fruit & Nut Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title h6 mb-1">Special Gift</h5>
+                        <p class="card-subtitle text-secondary">Cadbury</p>
+                        <div class="rating mt-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="weight text-secondary">555g</p>
+                        <div class="details d-flex">
+                            <h4 class="price">Rs. 375</h4>
+                            <button class="btn add-btn" onclick="addToCart('Special Gift', 375, './Images/prod-5.webp')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <h2 class="products-heading">Premium Collection</h2>
+        <div class="products-list row justify-content-evenly">
+            <div class="col">
+                <div class="card m-4"  >
+                    <img src="./Images/premium-1.webp" class="card-img-top" alt="Fruit & Nut Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title h6 mb-1">Salted Caramel</h5>
+                        <p class="card-subtitle text-secondary">Le pure</p>
+                        <div class="rating mt-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p class="weight text-secondary">400g</p>
+                        <div class="details">
+                            <h4 class="price">Rs. 1375</h4>
+                            <button class="btn add-btn" onclick="addToCart('Salted Caramel', 1375, './Images/premium-1.webp')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card m-4">
+                    <img src="./Images/premium-2.webp" class="card-img-top" alt="Fruit & Nut Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title h6 mb-1">Hazelnut Truffles</h5>
+                        <p class="card-subtitle text-secondary">Le pure</p>
+                        <div class="rating mt-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="weight text-secondary">750g</p>
+                        <div class="details d-flex">
+                            <h4 class="price">Rs. 1450</h4>
+                            <button class="btn add-btn" onclick="addToCart('Hazelnut Truffles', 1450, './Images/premium-2.webp')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card m-4">
+                    <img src="./Images/premium-3.webp" class="card-img-top" alt="Fruit & Nut Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title h6 mb-1">Almond Roka</h5>
+                        <p class="card-subtitle text-secondary">Le pure</p>
+                        <div class="rating mt-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            
+                        </div>
+                        <p class="weight text-secondary">200g</p>
+                        <div class="details d-flex">
+                            <h4 class="price">Rs. 1375</h4>
+                            <button class="btn add-btn" onclick="addToCart('Almond Roka', 1375, './Images/premium-3.webp')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card m-4">
+                    <img src="./Images/premium-4.webp" class="card-img-top" alt="Fruit & Nut Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title h6 mb-1">Cashew Roka</h5>
+                        <p class="card-subtitle text-secondary">Le pure</p>
+                        <div class="rating mt-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="weight text-secondary">900g</p>
+                        <div class="details d-flex">
+                            <h4 class="price">Rs. 1775</h4>
+                            <button class="btn add-btn" onclick="addToCart('Cashew Roka', 1775, './Images/premium-4.webp')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card m-4">
+                    <img src="./Images/premium-5.webp" class="card-img-top" alt="Fruit & Nut Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title h6 mb-1">Milk and Chocolate</h5>
+                        <p class="card-subtitle text-secondary">Le pure</p>
+                        <div class="rating mt-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="weight text-secondary">555g</p>
+                        <div class="details d-flex">
+                            <h4 class="price">Rs. 1375</h4>
+                            <button class="btn add-btn" onclick="addToCart('Milk and Chocolate', 1375, './Images/premium-5.webp')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="logo-img">
+            <img src="./Images/footer-logo.png" alt="Chocolate Shop Logo">
+            <div class="footer-content">
+                <ul>
+                    <li class="fhead">Products</li>
+                    <li>Chocolate Bars</li>
+                    <li>Truffles</li>
+                    <li>Gift Baskets</li>
+                    <li>Seasonal Specials</li>
+                </ul>
+                <ul>
+                    <li class="fhead">About Us</li>
+                    <li>Our Story</li>
+                    <li>Quality Ingredients</li>
+                    <li>Our Team</li>
+                    <li>Sustainability</li>
+                </ul>
+                <ul>
+                    <li class="fhead">Customer Service</li>
+                    <li>FAQs</li>
+                    <li>Order Tracking</li>
+                    <li>Returns & Exchanges</li>
+                    <li>Contact Us</li>
+                </ul>
+                <ul>
+                    <li class="fhead">Follow Us</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Newsletter Signup</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-icons">
+            <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    </div> 
+    <div class="copy">Copyright &copy; reserved by Sai Vivek Varma designer of Wish4Chocolate.com</div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
